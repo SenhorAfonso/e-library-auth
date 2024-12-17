@@ -1,0 +1,10 @@
+services:
+  postgresdb:
+    image: postgres:latest
+
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: PassWord123#
+      POSTGRES_DB: e-library-auth
+    ports:
+      - "5431:5432"
